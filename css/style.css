@@ -24,7 +24,6 @@
     font-style: normal;
 }
 
-/*EN-tête*/
 /* Page de garde*/
 
 .entête h1/*Le nom du site*/
@@ -244,8 +243,6 @@ nav > ul li:hover .sous
    width: 60px;
    margin: 10px;
 }
-
-
 
 /*Les 3 images du menu*/
 
@@ -733,4 +730,31 @@ form input[type="submit"]:hover, form input[type="reset"]:hover
 {
    background-color:yellow;
    color: #5bacfa;
+}
+
+@media screen and (max-width: 680px){
+   body 
+   {
+       overflow-wrap: break-word;
+       margin: 0px;
+   }
+   
+}
+
+/*Règles CSS pour les mobiles*/
+@media screen and (min-width: 681px) and (max-width:1279px){
+   body 
+   {
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+}
+@media screen and (min-width: 1280px){
+   body{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+   }
+}
+@media screen and (orientation: landscape){
+
 }
